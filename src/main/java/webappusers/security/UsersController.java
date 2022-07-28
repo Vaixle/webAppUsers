@@ -105,6 +105,8 @@ public class UsersController {
 
         return "redirect:/";
     }
+
+
     private boolean checkUserStatus(User user, HttpSession session) {
         User userCheck = userRepo.findByUsername(user.getUsername());
         if(userCheck == null || !userCheck.isEnabled()){
