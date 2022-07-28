@@ -1,0 +1,55 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #1172fd, #da12d5);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #1172fd, #da12d5);
+
+
+}
+
+button:hover {
+    border-bottom: 2px solid #1f6cfb;
+}
+
+button {
+    color: #007bff;
+    outline: none !important;
+    box-sizing: border-box;
+
+}
+.bt1{
+    position: absolute;
+    background: transparent;
+    border: none;
+    display: flex;
+    margin-left: 4%;
+}
+.bt2{
+    position: absolute;
+    background: transparent;
+    border: none;
+    display: flex;
+    margin-left: 8%;
+}
+.bt3{
+    position: absolute;
+    background: transparent;
+    border: none;
+    display: flex;
+    margin-left: 12%;
+}
+.bt4{
+    position: absolute;
+    background: transparent;
+    border: none;
+    display: flex;
+    right: 4%;
+    margin-top: 1%;
+}
+.container {
+    margin-top: 10%;
+}
